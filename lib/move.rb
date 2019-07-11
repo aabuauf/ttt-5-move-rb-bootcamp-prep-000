@@ -18,4 +18,5 @@ def move(board,converted_input,"X")
     array[index] = value
   end
   update_array_at_with(board, 0, "X")
+  board
 end
